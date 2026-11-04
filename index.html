@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thella Pavan Kumar - Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header id="main-header" class="header">
+        <nav class="nav container">
+            <a href="#" class="logo">
+                <!-- <img id="profile-pic" src="https://img.freepik.com/premium-photo/group-students-studying-school-back-school-kids-student-image-generated-ai_644690-2588.jpg" alt="Thella Prasanthi" class="profile-img"> -->
+            </a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#extracurricular" class="nav-link">Activities</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button id="mobile-menu-button" class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="#about" class="mobile-menu-link">About</a>
+            <a href="#skills" class="mobile-menu-link">Skills</a>
+            <a href="#experience" class="mobile-menu-link">Experience</a>
+            <a href="#projects" class="mobile-menu-link">Projects</a>
+            <a href="#education" class="mobile-menu-link">Education</a>
+            <a href="#extracurricular" class="mobile-menu-link">Activities</a>
+            <a href="#certifications" class="mobile-menu-link">Certifications</a>
+            <a href="#contact" class="mobile-menu-link">Contact</a>
+        </div>
+    </header>
+
+    <div class="content-wrapper">
+        <!-- Hero Section -->
+        <section id="about" class="hero section-fade-in">
+            <div id="particles-js" class="particles"></div>
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span id="type-text" class="gradient-text"></span><span class="type-cursor"></span>
+                </h1>
+                <p class="hero-description">
+                    Software developer passionate about building efficient solutions through technology, automation, and data analysis. Seeking opportunities to contribute and grow in the tech industry.
+                </p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/pavan-kumar-516121296/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/pavan-kumar-2005" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="mailto:pavankumar23122005@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                    <a href="https://leetcode.com/u/TPavankumar2005/" target="_blank" class="social-link"><i class="fas fa-code"></i></a>
+                    <!-- <a href="https://www.hackerrank.com/profile/pavankumar231221" target="_blank" class="social-link"><i class="fab fa-hackerrank"></i></a> -->
+                </div>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <!-- Skills Section -->
+            <section id="skills" class="section section-fade-in">
+                <h2 class="section-title"><span class="gradient-text">Technical Skills</span></h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3 class="skill-category"><i class="fas fa-code"></i> Programming Languages</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Python</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-progress-bar" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Sql</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-progress-bar" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <!-- <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>C</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-progress-bar" style="width: 80%"></div>
+                                </div>
+                            </div> -->
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>JavaScript</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-progress-bar" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h3 class="skill-category"><i class="fas fa-globe"></i> Web Development</h3>
+                        <ul class="skill-list">
+                            <li><i class="fas fa-check"></i> HTML & CSS</li>
+                            <li><i class="fas fa-check"></i> Bootstrap</li>
+                            <li><i class="fas fa-check"></i> React js</li>
+                            <li><i class="fas fa-check"></i> Responsive Design</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h3 class="skill-category"><i class="fas fa-database"></i> Databases & Tools</h3>
+                        <ul class="skill-list">
+                            <li><i class="fas fa-check"></i> MySQL</li>
+                            <li><i class="fas fa-check"></i> Git & GitHub</li>
+                            <li><i class="fas fa-check"></i> Postgresql</li>
+                            <li><i class="fas fa-check"></i> VS Code</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h3 class="skill-category"><i class="fas fa-cogs"></i> Core Concepts</h3>
+                        <ul class="skill-list">
+                            <li><i class="fas fa-check"></i> Data Structures</li>
+                            <li><i class="fas fa-check"></i> Object-Oriented Programming (OOP)</li>
+                            <li><i class="fas fa-check"></i> Algorithms</li>
+                            <li><i class="fas fa-check"></i> Problem Solving</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-card soft-skills">
+                        <h3 class="skill-category"><i class="fas fa-users"></i> Soft Skills</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Collaboration</span>
+                            <span class="skill-tag">Leadership</span>
+                            <span class="skill-tag">Adaptability</span>
+                            <span class="skill-tag">Creativity</span>
+                            <span class="skill-tag">Analytical Thinking</span>
+                            <span class="skill-tag">Problem Solving</span>
+                            <span class="skill-tag">Teamwork</span>
+                            <span class="skill-tag">Communication</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section id="experience" class="section section-fade-in">
+                <h2 class="section-title"><span class="gradient-text">Work Experience</span></h2>
+                <div class="experience-content">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <h3>Machine Learning Model</h3>
+                            <span class="experience-badge">Trained Model | 2026</span>
+                        </div>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">NumPy</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                        </div>
+                        <ul class="experience-list">
+                            <li><i class="fas fa-check"></i> Developed Smart Sorting application using NumPy, TensorFlow, Scikit-learn, Flask, HTML, CSS</li>
+                            <li><i class="fas fa-check"></i> Built ML-powered web app for fruit/vegetable classification (healthy/rotten) using CNN</li>
+                            <li><i class="fas fa-check"></i> Integrated TensorFlow/Scikit-learn with Flask backend and responsive frontend</li>
+                        </ul>
+                        <div class="experience-links">
+                            <a href="https://github.com/vangmayee03/smart-sorting-clean" target="_blank" class="experience-link">
+                                <i class="fab fa-github"></i> GitHub Repository
+                            </a>
+                            <!-- <a href="https://drive.google.com/file/d/1DVu4Zj1I6IsFpKf7qEaUEun0vIW33vJO/view?usp=drivesdk" target="_blank" class="experience-link">
+                                <i class="fas fa-certificate"></i> View Certificate
+                            </a> -->
+                            <a href="https://drive.google.com/file/d/1yKJi4BVEYdBxkyL7p25XQDACPFOtdDd5/view?usp=drivesdk" target="_blank" class="experience-link">
+                                <i class="fas fa-eye"></i> View Sample
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="section section-fade-in">
+                <h2 class="section-title"><span class="gradient-text">Projects</span></h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>AI Agent AURA</h3>
+                                <span class="project-badge">New</span>
+                            </div>
+                            <p>An AI-powered autonomous agent capable of executing multi-step reasoning tasks with API integration.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Python</span>
+                                <span class="project-tag">OpenAI API</span>
+                                <span class="project-tag">Web UI</span>
+                            </div>
+                            <a href="https://github.com/pavan-kumar-2005/AURA" target="_blank" class="project-link">
+                                View on GitHub <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Smart Sorting</h3>
+                            <p>A web app that classifies fruits/vegetables as healthy or rotten using a CNN model.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">TensorFlow</span>
+                                <span class="project-tag">Flask</span>
+                                <span class="project-tag">CNN</span>
+                            </div>
+                            <a href="https://github.com/pavan-kumar-2005/Smart-Sorting-AI-Web-Interface" target="_blank" class="project-link">
+                                View on GitHub <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Ecommerce</h3>
+                            <p>Integrated to perform Functionalities like adding to cart and total cost.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Java script</span>
+                                <!-- <span class="project-tag"></span>
+                                <span class="project-tag">Flask</span> -->
+                            </div>
+                            <a href="https://github.com/pavan-kumar-2005/Ecommerce-pavankumar" target="_blank" class="project-link">
+                                View on GitHub <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Automatic Question Paper Generator</h3>
+                            <p>A CLI tool to automate question paper generation from .docx files, reducing manual workload.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Python-docx</span>
+                                <span class="project-tag">Regex</span>
+                                <span class="project-tag">DateTime</span>
+                            </div>
+                            <!-- <a href="https://github.com/prasanthithella/Automatic-Objective-Question-Paper-Generator" target="_blank" class="project-link">
+                                View on GitHub <i class="fas fa-arrow-right"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section id="education" class="section section-fade-in">
+                <h2 class="section-title"><span class="gradient-text">Education</span></h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <p class="timeline-date">2023 – 2027</p>
+                            <h3>B.Tech, Computer Science and Engineering</h3>
+                            <p class="timeline-institution">Sri Venkateswara College of Engineering, Tirupati</p>
+                            <p class="timeline-grade">GPA: 8.63 / 10</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <p class="timeline-date">2021 – 2023</p>
+                            <h3>Intermediate (MPC)</h3>
+                            <p class="timeline-institution">Narayana Junior College, Tirupati</p>
+                            <p class="timeline-grade">GPA: 9.6 / 10</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <p class="timeline-date">2020 – 2021</p>
+                            <h3>SSC</h3>
+                            <p class="timeline-institution">Matrusri English Medium High School</p>
+                            <p class="timeline-grade">GPA: 10 / 10</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Extracurricular Section -->
+            <section id="extracurricular" class="section section-fade-in">
+                <h2 class="section-title"><span class="gradient-text">Activities & Achievements</span></h2>
+                <div class="activities-grid">
+                    <div class="activity-card">
+                        <h3 class="activity-category"><i class="fas fa-hands-helping"></i> Technical Content Creation</h3>
+                        <ul class="activity-list">
+                            <li>
+                                <span class="activity-title">Python Beginner Series</span> – Content Creation
+                                <p class="activity-description">Created and published a 30-day Python beginner learning series on Instagram.
+                                            Explained Python concepts through practical examples, covering variables, data types, operators, conditional statements, loops, strings, and more.
+                                                        Focused on making programming concepts easier for beginners through consistent educational content.</p>
+                            </li>
+                            <li>
+                                <span class="activity-title">Event Organizer</span> – Sri Venkateswara College of Engineering (3rd Year)
+                                <p class="activity-description">Conceptualized, planned, and executed a technical event for juniors, fostering peer learning, leadership, and technical growth within the department.</p>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="activity-card">
+                        <h3 class="activity-category"><i class="fas fa-users"></i> Clubs</h3>
+                        <ul class="activity-list">
+                            <!-- <li>
+                                <span class="activity-title">IEEE Member (2023–2024)</span>
+                                <p class="activity-description">Actively engaged in various workshops, seminars, and knowledge-sharing sessions focused on emerging technologies and professional development.</p>
+                            </li> -->
+                            <li>
+                                <span class="activity-title">Hackathon Facilitator</span> – Google Developer Group (GDG)
+                                <p class="activity-description">Co-organized a hackathon, mentored junior participants, and facilitated hands-on sessions on emerging technologies like AI, AR/VR, Robotics, and Data Science using Python.</p>
+                            </li>
+                            <li>
+                                <span class="activity-title">Literary & Appreciation Club Member</span>
+                                <p class="activity-description">Participated in literary discussions, creative writing competitions, and cultural events, enhancing communication and fostering a vibrant community spirit.</p>
+                            </li>
+                            <li>
+                                <span class="activity-title">Google Developer Student Clubs (GDSC)</span> – DSA Team Member
+                                <p class="activity-description">Contributed to peer learning initiatives by organizing and leading coding challenges and collaborative technical problem-solving sessions.</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="activity-card">
+                        <h3 class="activity-category"><i class="fas fa-microphone"></i> Tech Speaker & Presenter</h3>
+                        <ul class="activity-list">
+                            <li>
+                                <span class="activity-title">Technical Presentations & Workshops</span>
+                                <p class="activity-description">Delivered impactful presentations and hands-on workshops on diverse topics, including the applications of ChatGPT, advancements in AR/VR, fundamentals of Robotics, and practical Data Science with Python.</p>
+                            </li>
+                            <li>
+                                <span class="activity-title">Awarded 1st Prize in Paper Presentation</span>
+                                <p class="activity-description">Achieved first prize for an outstanding technical presentation and compelling delivery at a competitive inter-college department fest, showcasing strong research and communication skills.</p>
+                            </li>
+                            <li>
+                                <span class="activity-title">Promoted Tech Enthusiasm</span>
+                                <p class="activity-description">Inspired peers and juniors through engaging talks, encouraging participation in technical fields and fostering a culture of innovation.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Certifications Section -->
+            <section id="certifications" class="section section-fade-in">
+                <h2 class="section-title"><span class="gradient-text">Certifications</span></h2>
+                <div class="certifications-grid">
+                    <div class="cert-card">
+                        <i class="fas fa-certificate cert-icon"></i>
+                        <h3>Introduction to generative AI and agents</h3>
+                        <p>Microsoft</p>
+                        <a href="https://drive.google.com/file/d/1wtGP2UP9WJm1ACOLP9I1eZRXMg3pFOHn/view?usp=drivesdk" class="cert-link">
+                            View Certificate <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                     <div class="cert-card">
+                        <i class="fab fa-java cert-icon"></i>
+                        <h3>Python Programming</h3>
+                        <p>Udemy</p>
+                        <a href="https://drive.google.com/file/d/11QkGcyVi-Dsazo7en83RlnyHuBhacz38/view?usp=drivesdk" target="_blank" class="cert-link">
+                            View Certificate <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fas fa-laptop-code cert-icon"></i>
+                        <h3>Programming and Advanced AlgorithmsTechniques</h3>
+                        <p>ByteXL</p>
+                        <a href="https://drive.google.com/file/d/18wPFXQrJJEdDVz_zYjYYj4HrLnkIpg0P/view?usp=drivesdk" target="_blank" class="cert-link">
+                            View Certificate <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                    <!-- <div class="cert-card">
+                        <i class="fas fa-robot cert-icon"></i>
+                        <h3>Generative AI Professional</h3>
+                        <p>Oracle</p>
+                        <a href="https://drive.google.com/file/d/1jxuHeTSDSLw6arVIXpixR9mjtej4vS97/view" target="_blank" class="cert-link">
+                            View Certificate <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fab fa-python cert-icon"></i>
+                        <h3>Python Programming</h3>
+                        <p>Infosys</p>
+                        <a href="#" class="cert-link">
+                            View Certificate <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fas fa-database cert-icon"></i>
+                        <h3>DBMS</h3>
+                        <p>Infosys Springboard</p>
+                        <a href="#" class="cert-link">
+                            View Certificate <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div> -->
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section section-fade-in contact-section">
+                <h2 class="section-title"><span class="gradient-text">Get In Touch</span></h2>
+                <p class="contact-description">I'm currently looking for new opportunities and collaborations. My inbox is always open. Whether you have a question or just want to say hi, I'll get back to you!</p>
+                <a href="mailto:pavankumar23122005@gmail.com" class="btn btn-primary contact-btn">Say Hello</a>
+            </section>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <a href="#about" id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i> Top
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Designed & Built by Thella Pavan Kumar</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+                    
